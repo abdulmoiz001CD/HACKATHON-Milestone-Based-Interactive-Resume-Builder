@@ -79,6 +79,16 @@ form.addEventListener("submit", function (event) {
     downloadButton.addEventListener("click", downloadPDF);
     // Clear form fields after submission
     form.reset();
+    // Function to smoothly scroll the page down and bring content into view
+    function scrollPageDown(offset) {
+        // Scroll to the element with smooth behavior
+        window.scrollTo({
+            top: window.scrollY + offset,
+            behavior: 'smooth'
+        });
+    }
+    // Call the function with the desired offset (e.g., 100 pixels down)
+    scrollPageDown(1000);
     // Add event listener to the edit icon for repopulating form fields
     var newIconEditEl = document.getElementById("iconEdit");
     newIconEditEl.addEventListener("click", function (e) {
