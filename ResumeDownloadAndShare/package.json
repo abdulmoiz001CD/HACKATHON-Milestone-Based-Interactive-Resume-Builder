@@ -1,0 +1,16 @@
+{
+  "name": "editable-interactive-resume-builder",
+  "version": "1.0.0",
+  "description": "This project is a simple web application that dynamically generates a resume preview based on user input from a form. Here's a breakdown of its components and functionality:",
+  "main": "script.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/jspdf": "^2.0.0",
+    "jspdf": "^2.5.1"
+  }
+}
