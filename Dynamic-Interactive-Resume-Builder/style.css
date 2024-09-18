@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap'); /* Importing Google Fonts */
+
+/* Base body styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Form Styles */
+form {
+    background: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+}
+
+/* Heading styles */
+h1, h2, h3 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+
+h1 {
+    text-align: center;
+    color: #0b465f;
+}
+
+/* Label styles */
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Input and Textarea styles */
+input, textarea {
+    width: 95%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 2px solid #0b465f;
+    border-radius: 8px;
+}
+
+/* Button styles */
+button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: #0b465f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #083b4c;
+}
+
+/* Resume Output Container */
+#resume-output {
+    background-color: #fff;
+    padding: 30px;
+    margin-top: 30px;
+    border-radius: 12px;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+    max-width: 700px;
+    margin: 30px auto;
+    display: none; /* Hidden by default */
+}
+
+/* Resume Output Heading */
+#resume-output h2 {
+    border-bottom: 2px solid #0b465f;
+    padding-bottom: 10px;
+    font-size: 28px;
+    color: #0b465f;
+}
+
+/* Resume section heading */
+#resume-output h3 {
+    color: #083b4c;
+    margin-top: 20px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* Resume paragraph styles */
+#resume-output p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 12px;
+}
+
+/* Strong text styles in the resume */
+#resume-output strong {
+    color: #0b465f;
+}
+
+/* Resume sections with margins */
+.resume-section {
+    margin-bottom: 20px;
+}
+
+/* Resume header layout */
+.resume-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* Custom padding for Email and Phone */
+#EmailPhonePar {
+    padding-top: 20px;
+}
+
+/* Resume header heading styles */
+.resume-header h2 {
+    font-size: 28px;
+    color: #0b465f;
+    margin: 0;
+}
+
+/* Resume header paragraph */
+.resume-header p {
+    font-size: 16px;
+    color: #6b6b6b;
+}
+
+/* Margin for section headings */
+.resume-section h3 {
+    margin-bottom: 10px;
+}
+
+/* Padding for section paragraphs */
+.resume-section p {
+    margin: 0;
+    padding: 4px 0;
+}
+
+/* Responsive styling for devices with max width 426px */
+@media(max-width:426px) {
+    #resume-output h2 {
+        border-bottom: 2px solid #0b465f;
+        padding-bottom: 10px;
+        font-size: 15px;
+        color: #0b465f;
+    }
+    
+    /* Reduced font size for paragraphs on smaller screens */
+    #resume-output p {
+        font-size: 10px;
+    }
+
+    /* Adjust padding for email and phone paragraph */
+    #EmailPhonePar {
+        padding-top: 15.5px;
+    }
+}
+
+/* Responsive styling for devices with max width 376px */
+@media(max-width:376px) {
+    #resume-output h2 {    
+        font-size: 15px;
+        color: #0b465f;  
+    }
+        
+    #resume-output p {     
+        font-size: 9px;
+    }
+}
+
+/* Another set of responsive rules for 376px and below */
+@media(max-width:376px) {
+    #resume-output h2 {    
+        font-size: 14px;
+        color: #0b465f;  
+    }
+        
+    #resume-output p {     
+        font-size: 7px;
+    }
+
+    /* Adjust padding for email and phone paragraph */
+    #EmailPhonePar {
+        padding-top: 15.5px;
+    }
+}
