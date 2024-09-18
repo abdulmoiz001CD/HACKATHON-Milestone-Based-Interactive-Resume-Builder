@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap'); /* Importing Google Fonts */
+
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #0b465f;
+    color: #333;
+    padding: 20px;
+  }
+  
+  /* Container for sections */
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  /* Header */
+  header {
+    background-color: #0b465f;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    border-radius: 8px 8px 0 0;
+  }
+  
+  header h1 {
+    font-size: 4rem;
+    margin-bottom: 5px;
+    color: #2069bd;
+    word-spacing: 0.5rem;
+    letter-spacing: 0.2rem;
+  }
+  
+  header p {
+    font-size: 1.2rem; 
+    color: #2069bd;
+  }
+  
+  /* Profile Picture */
+  .profile-pic {
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 10px;
+  }
+  
+  /* Section Titles */
+  h2 {
+    font-size: 1.8rem;
+    color: #0b465f;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+  }
+  
+  /* Links */
+  a {
+    color: #0b465f;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Lists */
+  ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  /* Work Experience */
+  .job {
+    margin-bottom: 20px;
+  }
+  
+  .job h3 {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .job p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  
+  .job ul {
+    list-style-type: square;
+    margin-left: 40px;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 10px;
+    font-size: 0.9rem;
+    color: #777;
+    border-top: 1px solid #ddd;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    body {
+      padding: 10px;
+    }
+  
+    header h1 {
+      font-size: 2rem;
+    }
+  
+    header p {
+      font-size: 1rem;
+    }
+  
+    .container {
+      padding: 15px;
+    }
+  
+    h2 {
+      font-size: 1.5rem;
+    }
+  }
+  
